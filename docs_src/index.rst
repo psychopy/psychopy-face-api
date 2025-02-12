@@ -1,15 +1,8 @@
 =======================================================
-Welcome to psychopy-plugin-template's documentation!
+Welcome to psychopy-face-api's documentation!
 =======================================================
 
-The `psychopy-template` plugin is designed to show you how to make a plugin.
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Added content for the PsychoPy app
-   :glob:
-
-   app/*
+The `psychopy-face-api` plugin adds support for the JavaScript Face API in PsychoJS experiments made in PsychoPy Builder.
 
 .. toctree::
    :maxdepth: 1
@@ -17,13 +10,6 @@ The `psychopy-template` plugin is designed to show you how to make a plugin.
    :glob:
 
    builder/**/*
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Added content for Coder
-   :glob:
-
-   coder/*
 
 Indices and tables
 ==================
