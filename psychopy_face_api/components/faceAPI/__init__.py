@@ -73,6 +73,10 @@ class FaceAPIComponent(BaseVisualComponent):
             "https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js",
             name="face-api.js"
         )
+        self.exp.requireOnlineResource(
+            "https://pavlovia.org/assets/face-api-models",
+            name="face-api-models"
+        )
 
         # --- Basic params ---
         self.order += [
@@ -94,7 +98,7 @@ class FaceAPIComponent(BaseVisualComponent):
             "    win: psychoJS.window,\n"
             "    name: '%(name)s',\n"
             "    faceApiUrl: 'face-api.js',\n"
-            "    modelDir: 'https://pavlovia.org/assets/face-api-models',\n"
+            "    modelDir: 'face-api-models',\n"
             "    units: %(units)s,\n"
             "    pos: %(pos)s,\n"
             "    size: %(size)s,\n"
