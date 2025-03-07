@@ -1,8 +1,10 @@
 
 =======================================================
-How to install psychopy-plugin-template
+How to install psychopy-face-api
 =======================================================
 
-You can download `psychopy-plugin-template` via pip as follows::
+You can download `psychopy-face-api` via pip as follows::
 
-    pip install git+https://github/psychopy/psychopy-plugin-template@main
+    pip install psychopy-face-api
+
+Or you can install it via the Plugins & Packages Manager in PsychoPy Builder.
